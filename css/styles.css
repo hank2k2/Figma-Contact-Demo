@@ -7,9 +7,11 @@
 }
 
 body {
-    /* height: 2757px; */
+    /* height: 2757px;
     top: 780px;
-    left: 828px;
+    left: 828px; */
+    width: 100%;
+    height: 100%;
 }
 
 .wrapper {
