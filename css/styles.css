@@ -25,20 +25,16 @@ body {
 }
 
 .header_top {
-    height: 48px;
+    padding: 20px 0;
     background-color: #212121;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
 }
 
 .header_top .sign_up {
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
-    letter-spacing: 0.4%;
     color: #ffffff;
-    text-align: center;
 }
 
 .header_main_container {
@@ -55,11 +51,10 @@ body {
 }
 
 .menu {
-    gap: 44px;
     list-style: none;
     display: flex;
-    text-align: center;
-    justify-content: center;
+    gap: 44px;
+    margin-left: 30px;
 }
 
 .menu .item a.hover_item {
