@@ -17,7 +17,7 @@ body {
 }
 
 .container {
-    max-width: 1920px;
+    max-width: 1560px;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -39,19 +39,12 @@ body {
     text-align: center;
 }
 
-.header_main {
-    width: 100%;
-    display: flex;
-    position: relative;
-}
-
 .header_main_container {
-    width: 100%;
     display: flex;
     justify-content: space-between;
     text-align: center;
     align-items: center;
-    height: 100px;
+    padding: 20px 0;
 }
 
 .header_main .logo {
@@ -147,8 +140,15 @@ body {
 }
 
 .megaMenu .mega_content .mega_row {
-    line-height: 12px;
+    line-height: 15px;
     text-align: left;
+}
+
+.megaMenu .mega_content .mega_row header {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #000000;
 }
 
 .mini_logo {
@@ -202,8 +202,6 @@ body {
 
 .contact_form {
     display: flex;
-    padding: 50px;
-    margin: 0 auto;
     gap: 100px;
 }
 
@@ -300,10 +298,7 @@ svg {
 }
 
 .location {
-    max-width: 100%;
-    display: flex;
     text-align: left;
-    justify-content: center;
 }
 
 .location_info {
