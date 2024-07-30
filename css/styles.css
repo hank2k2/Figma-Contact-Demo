@@ -42,8 +42,6 @@ body {
 }
 
 .header_main .logo {
-    width: 112.59px;
-    height: 36.48px;
     margin-bottom: 15px;
 }
 
@@ -284,9 +282,13 @@ svg {
 }
 
 .location_info {
-    display: grid;
     padding-bottom: 50px;
-    gap: 10px;
+}
+
+.location_info p {
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
 }
 
 .map_img {
