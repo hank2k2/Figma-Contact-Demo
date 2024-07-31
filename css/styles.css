@@ -183,21 +183,28 @@ body {
 }
 
 .main_contact {
-    display: flex;
 }
 
 .contact_form {
     padding-top: 30px;
-    display: flex;
-    gap: 100px;
+    overflow: hidden;
 }
 
-.main_form .row {
+.banner_contact {
+    width: 30%;
+}
+
+.main_form {
+    width: 70%;
+}
+
+.row {
     display: flex;
+    gap: 10px;
 }
 
 .main_form .row .name {
-    margin-right: 20px;
+    width: 100%;
 }
 
 .contact_pic {
@@ -229,23 +236,23 @@ label.star::after {
     margin-left: 4px;
 }
 
-input {
+.input_text {
     padding: 5px;
     border: 1px solid #000000;
     border-radius: 7px;
-    width: 328px;
+    width: 100%;
     height: 40px;
 }
 
-input.info {
-    padding: 5px;
-    width: 677px;
-    height: 40px;
-    border: 1px solid black;
+.banner_block {
+    display: flex;
+    width: 1300px;
+    margin: 0 auto;
+    gap: 100px;
 }
 
 textarea {
-    width: 677px;
+    width: 100%;
     height: 150px;
     padding: 5px 5px;
     border: 1px solid black;
@@ -253,12 +260,11 @@ textarea {
 }
 
 input.send_info {
-    display: flex;
-    width: 150px;
+    height: 40px;
+    width: 140px;
     color: #ffffff;
-    justify-content: center;
-    align-items: center;
     background-color: #000;
+    border-radius: 7px;
 }
 
 h2 {
@@ -283,6 +289,8 @@ svg {
 
 .location_info {
     padding-bottom: 50px;
+    width: 1300px;
+    margin: 0 auto;
 }
 
 .location_info p {
@@ -292,14 +300,13 @@ svg {
 }
 
 .map_img {
-    height: 500px;
     overflow: hidden;
     margin-top: 20px;
 }
 
 .map_img iframe {
     width: 100%;
-    height: 100%;
+    height: 500px;
     border: none;
 }
 
